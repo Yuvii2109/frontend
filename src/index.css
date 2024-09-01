@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i:hover{
+  color: #387ed1;
+}
+a{
+  text-decoration: none;
+  color: rgb(154, 153, 153);
+  font-weight: 500;
+}
+a:hover{
+  text-decoration: underline;
+}

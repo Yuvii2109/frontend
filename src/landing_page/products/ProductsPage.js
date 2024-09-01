@@ -5,12 +5,14 @@ import RightSection from './RightSection';
 import Universe from './Universe';
 
 function ProductPage() {
-    <>
-        <Hero/>
-        <LeftSection/>
-        <RightSection/>
-        <Universe/>
-    </>
+    return(
+        <>
+            <Hero/>
+            <LeftSection/>
+            <RightSection/>
+            <Universe/>
+        </>
+    );
 }
 
 export default ProductPage;

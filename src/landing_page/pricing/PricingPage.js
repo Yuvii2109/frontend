@@ -3,10 +3,12 @@ import Hero from './Hero';
 import Brokerage from './Brokerage';
 
 function PricingPage() {
-    <>
-        <Hero/>
-        <Brokerage/>
-    </>
+    return(
+        <>
+            <Hero/>
+            <Brokerage/>
+        </>
+    );
 }
 
 export default PricingPage;
